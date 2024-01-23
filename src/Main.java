@@ -44,7 +44,6 @@ public class Main {
     var differenceBoxer = (waightBoxer2 - waightBoxer1) % totalWeight;
     System.out.println(" разница массы веса между боксерами " + differenceBoxer + " кг ");
 
-
     var totaTime = 640;
     var forEachSpecialist = 8;
     var specialist = totaTime / forEachSpecialist;
@@ -53,6 +52,5 @@ public class Main {
     System.out.println(" фактическое количество специалситов составляет " + numberOfSpecialistsFact + " человека ");
     var factTimeFoEveryone = totaTime / numberOfSpecialistsFact;
     System.out.println(" рабочего времени на каждого составляет " + factTimeFoEveryone + " часа ");
-
     }
 }
