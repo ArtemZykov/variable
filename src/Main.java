@@ -52,5 +52,6 @@ public class Main {
     System.out.println(" фактическое количество специалситов составляет " + numberOfSpecialistsFact + " человека ");
     var factTimeFoEveryone = totaTime / numberOfSpecialistsFact;
     System.out.println(" рабочего времени на каждого составляет " + factTimeFoEveryone + " часа ");
+
     }
 }
